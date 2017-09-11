@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialNumberFinder", "SerialNumberFinder.vcxproj", "{BC5BCEA9-52CD-4092-8C37-FF720802DE7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC5BCEA9-52CD-4092-8C37-FF720802DE7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC5BCEA9-52CD-4092-8C37-FF720802DE7A}.Debug|Win32.Build.0 = Debug|Win32
+		{BC5BCEA9-52CD-4092-8C37-FF720802DE7A}.Release|Win32.ActiveCfg = Release|Win32
+		{BC5BCEA9-52CD-4092-8C37-FF720802DE7A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

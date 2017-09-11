@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/29/trunk/tessdata
+END
+eng.user-words
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/35/trunk/tessdata/eng.user-words
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/62/trunk/tessdata/Makefile.in
+END
+eng.word-dawg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/35/trunk/tessdata/eng.word-dawg
+END
+confsets
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/tessdata/confsets
+END
+eng.DangAmbigs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/35/trunk/tessdata/eng.DangAmbigs
+END
+eng.freq-dawg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/35/trunk/tessdata/eng.freq-dawg
+END
+eng.normproto
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/35/trunk/tessdata/eng.normproto
+END
+eng.inttemp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/35/trunk/tessdata/eng.inttemp
+END
+eng.pffmtable
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/35/trunk/tessdata/eng.pffmtable
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/trunk/tessdata/Makefile.am
+END
+eng.unicharset
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/35/trunk/tessdata/eng.unicharset
+END

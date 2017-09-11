@@ -1,0 +1,2 @@
+﻿SerialNumberFinder.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  SerialNumberFinder.vcxproj -> G:\Class\OpenCV\SerialNumberFinder\Debug\SerialNumberFinder.exe

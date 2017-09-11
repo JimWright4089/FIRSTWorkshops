@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/4/trunk/tessdata/configs
+END
+inter
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4/trunk/tessdata/configs/inter
+END
+api_resaljet
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/tessdata/configs/api_resaljet
+END
+oldbox.train
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/tessdata/configs/oldbox.train
+END
+box.train
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4/trunk/tessdata/configs/box.train
+END
+var_api_config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/trunk/tessdata/configs/var_api_config
+END
+variable_config
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4/trunk/tessdata/configs/variable_config
+END
+var_box.train
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4/trunk/tessdata/configs/var_box.train
+END
+oldapi_config
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4/trunk/tessdata/configs/oldapi_config
+END
+api_config
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/tessdata/configs/api_config
+END
