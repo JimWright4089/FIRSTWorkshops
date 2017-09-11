@@ -1,0 +1,15 @@
+E:\JimsCode\CS\RNDO\RNDO\bin\Debug\RNDO.dll
+E:\JimsCode\CS\RNDO\RNDO\bin\Debug\RNDO.pdb
+E:\JimsCode\CS\RNDO\RNDO\obj\Debug\RNDO.dll
+E:\JimsCode\CS\RNDO\RNDO\obj\Debug\RNDO.pdb
+E:\JimsCode\CS\RNDO\Debug\RNDO.dll
+E:\JimsCode\CS\RNDO\Debug\RNDO.pdb
+C:\JimsCode\CS\RNDO\Debug\RNDO.dll
+C:\JimsCode\CS\RNDO\Debug\RNDO.pdb
+C:\JimsCode\CS\RNDO\RNDO\obj\Debug\RNDO.dll
+C:\JimsCode\CS\RNDO\RNDO\obj\Debug\RNDO.pdb
+C:\JimsCode\CS\RNDO\RNDO\obj\Debug\RNDO.csprojResolveAssemblyReference.cache
+C:\JimsCode\RoboticaSpace\RoboticaSpace\RNDO\Windows\RNDO\Debug\RNDO.dll
+C:\JimsCode\RoboticaSpace\RoboticaSpace\RNDO\Windows\RNDO\RNDO\obj\Debug\RNDO.dll
+C:\JimsCode\RoboticaSpace\RoboticaSpace\RNDO\Windows\RNDO\RNDO\obj\Debug\RNDO.pdb
+C:\JimsCode\RoboticaSpace\RoboticaSpace\RNDO\Windows\RNDO\Debug\RNDO.pdb
