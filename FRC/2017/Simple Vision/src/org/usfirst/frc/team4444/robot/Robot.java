@@ -105,8 +105,7 @@ public class Robot extends IterativeRobot {
             camera.setWhiteBalanceManual(0);
             
             CvSink cvSink = CameraServer.getInstance().getVideo();
-            CvSource outputStream2 = CameraServer.getInstance().putVideo("Orig", 320, 240);
-            //CvSource outputStream1 = CameraServer.getInstance().putVideo("Orig", 320, 240);
+            CvSource outputStream = CameraServer.getInstance().putVideo("Orig", 320, 240);
             
             int morphSize = 7;
             Mat imgOriginal = new Mat();
@@ -119,7 +118,6 @@ public class Robot extends IterativeRobot {
             while(true) {
                 cvSink.grabFrame(imgOriginal);
                 Imgproc.cvtColor(imgOriginal, imgHSV, Imgproc.COLOR_BGR2GRAY);
-                //Imgproc.cvtColor(imgOriginal, imgHSV, Imgproc.COLOR_BGR2HSV); //Convert the captured frame from BGR to HSV
                 Imgproc.threshold(imgHSV, imgThresholded, 30, 255, Imgproc.THRESH_BINARY);
                             
                 //morphological opening (remove small objects from the foreground)
@@ -140,17 +138,16 @@ public class Robot extends IterativeRobot {
                 Mat hierarchy = new Mat();
                 Imgproc.findContours(imgThresholdedCopy, contours, hierarchy, 
                 		Imgproc.RETR_TREE, Imgproc.CHAIN_APPROX_SIMPLE, new Point(0, 0));
-                //System.out.print("Size:");
-                //System.out.println(contours.size());
+
                 double largestArea1 = -1;
                 int largestCont1 = -1;
                 double largestArea2 = -1;
                 int largestCont2 = -1;
+                Scalar color = new Scalar(0, 0, 255);
                 
                 for (int i = 0; i< contours.size(); i++)
                 {
                     double area = Imgproc.contourArea(contours.get(i));
-                    {
                     if (area > largestArea1)
                     {
                         largestArea2 = largestArea1;
@@ -170,7 +167,6 @@ public class Robot extends IterativeRobot {
                             rct2 = Imgproc.boundingRect(contours.get(largestCont2));
                         }
                     }
-                    }
                 }
 
                 if (-1 != largestCont1)
@@ -179,54 +175,47 @@ public class Robot extends IterativeRobot {
                     
                     Imgproc.approxPolyDP(mat, mat, 3, true);
  
-                    Scalar color = new Scalar(0, 0, 255);
                     Imgproc.drawContours(imgOriginal, contours, largestCont1, color, 2, 8, hierarchy, 0, new Point());
-                    Scalar color2 = new Scalar(255, 0, 0);
-                    //Imgproc.rectangle(img, pt1, pt2, color2);
-                    Imgproc.rectangle(imgOriginal, rct1.tl() ,rct1.br() , color2, 2);
+                    color = new Scalar(255, 0, 0);
+                    Imgproc.rectangle(imgOriginal, rct1.tl() ,rct1.br() , color, 2);
                     
                     mWhereToTurn = rct1.tl().y-120; 
 
                     if (-1 != largestCont2)
                     {
-                        //rct = Imgproc.boundingRect(contours.get(largestCont));
-                        //contours.get
                         MatOfPoint2f  mat2 = new MatOfPoint2f( contours.get(largestCont2).toArray() );
-                        //MatOfPoint2f mat = contours.get(largestCont);
                         
                         Imgproc.approxPolyDP(mat2, mat2, 3, true);
      
-                        Scalar color3 = new Scalar(0, 255, 255);
-                        Imgproc.drawContours(imgOriginal, contours, largestCont1, color3, 2, 8, hierarchy, 0, new Point());
-                        Scalar color4 = new Scalar(255, 255, 0);
-                        Imgproc.rectangle(imgOriginal, rct2.tl() ,rct2.br() , color4, 2);
+                        color = new Scalar(0, 255, 255);
+                        Imgproc.drawContours(imgOriginal, contours, largestCont1, color, 2, 8, hierarchy, 0, new Point());
+                        color = new Scalar(255, 255, 0);
+                        Imgproc.rectangle(imgOriginal, rct2.tl() ,rct2.br() , color, 2);
 
                         int cx = ((rct1.x+(rct1.x+rct1.width))/2 + (rct2.x+(rct2.x+rct2.width))/2)/2;
                         int cy = ((rct1.y+(rct1.y+rct1.height))/2 + (rct2.y+(rct2.y+rct2.height))/2)/2;
                         
-                        Scalar color5 = new Scalar(0, 255, 0);
-                        Imgproc.circle(imgOriginal, new Point(cx,cy), 4, color5);
+                        color = new Scalar(0, 255, 0);
+                        Imgproc.circle(imgOriginal, new Point(cx,cy), 4, color);
                         System.out.println(cx+" "+cy+" "+
                         rct1.x+" "+rct1.y+" "+
-                        rct2.x+" "+rct2.y+" "+
                         rct1.width+" "+rct1.height+" "+
+                        rct2.x+" "+rct2.y+" "+
                         rct2.width+" "+rct2.height+" ");
-                        
-                        mWhereToTurn = rct1.tl().y-120; 
-                        
                     }
-                    
-                    
+                    else
+                    {
+                        int cx = (rct1.x+(rct1.x+rct1.width))/2;
+                        int cy = (rct1.y+(rct1.y+rct1.height))/2;
+
+                        System.out.println(cx+" "+cy+" "+
+                        rct1.x+" "+rct1.y+" "+
+                        rct1.width+" "+rct1.height+" ");
+                    }
                 }
-                else
-                {
-                	mWhereToTurn = 9999;
-                }
-                //System.out.print("Turn:");
-                //System.out.println(mWhereToTurn);
 
                 //outputStream2.putFrame(imgThresholded);
-                outputStream2.putFrame(imgOriginal);
+                outputStream.putFrame(imgOriginal);
                
             }
             //Thread.sleep(10);
@@ -290,7 +279,6 @@ public void disabledPeriodic()
 // If the robot is disabled then spin the alliance color
 // If it's enabled then show white LED
 private void SetLED() {
-	System.out.println("Send");
 	if (Alliance.Blue == mStation.getAlliance()) {
 		mSendBytes[0] = 'B';
 	} else {
