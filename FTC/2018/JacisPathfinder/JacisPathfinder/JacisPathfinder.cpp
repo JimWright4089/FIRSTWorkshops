@@ -35,9 +35,9 @@ using namespace std;
 //  Constants
 //----------------------------------------------------------------------------
 const double TIME_SLICE =    0.02;
-const double MAX_VEL    =   60.0;
-const double MAX_ACCEL  =  100.0;
-const double MAX_JERK   = 1000.0;
+const double MAX_VEL    =   6.0;
+const double MAX_ACCEL  =  10.0;
+const double MAX_JERK   = 100.0;
 
 //----------------------------------------------------------------------------
 //  Local Functions

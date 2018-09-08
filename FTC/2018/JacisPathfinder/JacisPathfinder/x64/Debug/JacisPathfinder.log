@@ -1,0 +1,16 @@
+﻿  trajectory.c
+  spline.c
+  tank.c
+  swerve.c
+  mathutil.c
+  io.c
+  generator.c
+  encoder.c
+  distance.c
+  hermite.c
+  Generating Code...
+  JacisPathfinder.cpp
+  LINK : ..\bin\JacisPathfinder.exe not found or not built by the last incremental link; performing full link
+     Creating library ..\bin\JacisPathfinder.lib and object ..\bin\JacisPathfinder.exp
+  JacisPathfinder.vcxproj -> C:\JimsCode\FIRSTWorkshops\FTC\2018\JacisPathfinder\JacisPathfinder\..\bin\JacisPathfinder.exe
+  JacisPathfinder.vcxproj -> ..\bin\JacisPathfinder.pdb (Partial PDB)
