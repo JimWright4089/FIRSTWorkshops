@@ -38,6 +38,7 @@ const double TIME_SLICE =    0.02;
 const double MAX_VEL    =   6.0;
 const double MAX_ACCEL  =  10.0;
 const double MAX_JERK   = 100.0;
+const double WHEEL_BASE_WIDTH = 8;
 
 //----------------------------------------------------------------------------
 //  Local Functions
@@ -129,9 +130,8 @@ void createPaths(vector<string> fields)
   Segment *leftTrajectory = (Segment*)malloc(sizeof(Segment) * length);
   Segment *rightTrajectory = (Segment*)malloc(sizeof(Segment) * length);
 
-  double wheelbase_width = 14;  //24
-
-  pathfinder_modify_tank(trajectory, length, leftTrajectory, rightTrajectory, wheelbase_width);
+  pathfinder_modify_tank(trajectory, length, 
+    leftTrajectory, rightTrajectory, WHEEL_BASE_WIDTH);
 
   outputFile << "//----------------------------------------------------------------------------" << endl;
   outputFile << "//" << endl;
