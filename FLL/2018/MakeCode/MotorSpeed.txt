@@ -6,7 +6,7 @@ requestedSpeed = 50
 forever(function () {
     currentSpeed = motors.largeD.speed()
     error = requestedSpeed - currentSpeed
-    newSpeed = requestedSpeed + error * 2
+    newSpeed = requestedSpeed + error * -2
     motors.largeD.run(newSpeed)
     brick.showNumber(error, 1)
     brick.showNumber(newSpeed, 2)
