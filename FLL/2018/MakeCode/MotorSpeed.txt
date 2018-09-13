@@ -1,0 +1,5 @@
+brick.buttonEnter.onEvent(ButtonEvent.Pressed, function () {
+    motors.largeCD.tank(50, 50)
+    pause(2000)
+    motors.stopAll()
+})
