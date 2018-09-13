@@ -1,5 +1,30 @@
-brick.buttonEnter.onEvent(ButtonEvent.Pressed, function () {
-    motors.largeCD.tank(50, 50)
-    pause(2000)
-    motors.stopAll()
+let heading = 0
+sensors.gyro4.reset()
+heading = 0
+function deadBand(heading: number) {
+    if (heading > 4) {
+        return heading;
+    }
+
+    if (heading < -4) {
+        return heading;
+    }
+    return 0;
+}
+;
+forever(function () {
+    heading = deadBand(sensors.gyro4.angle() - sensors.gyro4.drift())
+    brick.showNumber(heading, 1)
+    if (heading == 0) {
+        motors.largeC.run(0)
+        motors.largeD.run(0)
+    } else {
+        if (heading > 0) {
+            motors.largeC.run(15)
+            motors.largeD.run(-15)
+        } else {
+            motors.largeC.run(-15)
+            motors.largeD.run(15)
+        }
+    }
 })
