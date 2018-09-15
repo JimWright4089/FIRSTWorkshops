@@ -1,18 +1,33 @@
 #pragma config(Sensor, S4,     Gyro,           sensorEV3_Gyro, modeEV3Gyro_Angle)
+//----------------------------------------------------------------------------
+//
+//  $Workfile: DisplayGyro.c$
+//
+//  $Revision: X$
+//
+//  Project:    PNW Code Wright
+//
+//                            Copyright (c) 2018
+//                                Jim Wright
+//                            All Rights Reserved
+//
+//  Modification History:
+//  $Log:
+//  $
+//
+//----------------------------------------------------------------------------
 
-/*
-Gyro modes
-0 - modeEV3Gyro_Angle
-1 - modeEV3Gyro_Rate
-2 - modeEV3Gyro_Fast
-3 - modeEV3Gyro_RateAndAngle
-4 - modeEV3Gyro_Calibration - Not utilized
-*/
+// --------------------------------------------------------------------
+// Purpose:
+//     Display the gyro on the screen
+//
+// Notes:
+// None.
+// --------------------------------------------------------------------
 task main()
 {
 	resetGyro(Gyro);
 
-	// The code below will rotate the robot 360 degrees and wait 1 second and repeat
 	while (true)
 	{
 		int angle = SensorValue[Gyro];

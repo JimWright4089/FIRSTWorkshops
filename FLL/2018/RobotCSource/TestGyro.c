@@ -1,7 +1,0 @@
-
-task main()
-{
-
-	getGyroHeading(nDeviceIndex)
-
-}
