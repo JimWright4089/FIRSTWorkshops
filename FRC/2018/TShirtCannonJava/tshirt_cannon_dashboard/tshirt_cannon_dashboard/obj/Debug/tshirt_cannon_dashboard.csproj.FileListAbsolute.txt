@@ -1,0 +1,94 @@
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.exe.config
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.exe
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.pdb
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRC.NetworkTables.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRCDash.MVVM.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Context.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Coordination.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Tasks.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Collections.Deque.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Disposables.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRC.NetworkTables.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Context.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Coordination.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Tasks.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Collections.Deque.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Disposables.xml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.csprojResolveAssemblyReference.cache
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\MainWindow.g.cs
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\App.g.cs
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard_MarkupCompile.cache
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard_MarkupCompile.lref
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\MainWindow.baml
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.g.resources
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.Properties.Resources.resources
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.csproj.GenerateResource.Cache
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.exe
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.pdb
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.DataGrid.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.Toolkit.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\StealthDashboardTools.dll
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\StealthDashboardTools.pdb
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\CannonStatus.g.cs
+c:\users\steal_000\documents\visual studio 2015\Projects\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\CannonStatus.baml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.exe.config
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.exe
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\tshirt_cannon_dashboard.pdb
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRC.NetworkTables.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRCDash.MVVM.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Context.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Coordination.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Tasks.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Collections.Deque.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Disposables.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\FRC.NetworkTables.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Context.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Coordination.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.AsyncEx.Tasks.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Collections.Deque.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\Nito.Disposables.xml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.csprojResolveAssemblyReference.cache
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\CannonStatus.g.cs
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\MainWindow.g.cs
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\App.g.cs
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard_MarkupCompile.cache
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard_MarkupCompile.lref
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\CannonStatus.baml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\MainWindow.baml
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.g.resources
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.Properties.Resources.resources
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.csproj.GenerateResource.Cache
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.exe
+C:\JimsCode\TShirtCannonJava\tshirt_cannon_dashboard\tshirt_cannon_dashboard\obj\Debug\tshirt_cannon_dashboard.pdb
