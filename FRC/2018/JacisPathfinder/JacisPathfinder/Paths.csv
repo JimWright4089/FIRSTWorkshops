@@ -1,0 +1,29 @@
+﻿Name,Desc,Number,X,Y,Theta,X,Y,Theta,X,Y,Theta,X,Y,Theta,X,Y,Theta
+Red21,Feed Switch from Side start 2 aud,3,16,88.25,0,112,69.25,0,124,69.25,0,,,,,,
+Red22,Feed Switch from Side start 2 cont,3,16,88.25,0,112,189,0,124,189,0,,,,,,
+Red31,Feed Switch from Side start 3 aud,3,16,136.25,0,112,69.25,0,124,69.25,0,,,,,,
+Red32,Feed Switch from Side start 3 cont,3,16,136.25,0,112,189,0,124,189,0,,,,,,
+Red41,Feed Switch from Side start 4 aud,3,16,182.25,0,112,69.25,0,124,69.25,0,,,,,,
+Red42,Feed Switch from Side start 4 cont,3,16,182.25,0,112,189,0,124,189,0,,,,,,
+Red11,Feed Switch from Side start 1 aud,3,16,43.75,0,112,69.25,0,124,69.25,0,,,,,,
+Red12,Feed Switch from Front Start 1 aud,3,16,43.75,0,168,57.25,75,168,69.25,90,,,,,,
+Red51,Feed Switch from Front Start 5 cont,3,16,244.25,0,168,230.75,-75,168,218.75,-90,,,,,,
+Red23,Feed Switch from Front Start 4 aud,4,16,88.25,0,140,57.25,-25,168,57.25,25,168,69.25,90,,,
+Red43,Feed Switch from Front Start 4 aud,4,16,182.25,0,140,230.75,25,168,230.75,-25,168,218.75,-90,,,
+Red13,Feed SW from Back start 1 aud,5,16,43.75,0,140,57.25,-25,208,57.25,25,208,69.25,125,196,69.25,180
+Red23,Feed SW from Back start 2 aud,5,16,88.25,0,140,57.25,-25,208,57.25,25,208,69.25,125,196,69.25,180
+Red43,Feed SW from Back start 4 aud,5,16,182.25,0,140,230.75,25,208,230.75,-25,208,189,-125,196,189,180
+Red53,Feed SW from Back start 5 aud,5,16,244.25,0,140,230.75,25,208,230.75,-25,208,189,-125,196,189,180
+Red52,Feed Switch from Side start 5 cont,3,16,244.25,0,112,189,0,124,189,0,,,,,,
+Red14,Feed Scale from front aud,4,16,43.75,0,140,57.25,-25,324,59.57,25,324,71.57,90,,,
+Red15,Feed scale from side aud,5,16,43.75,0,140,57.25,-25,288,57.25,25,288,92.5,45,300,92.5,0
+Red24,Feed Scale from front aud,4,16,88.25,0,140,57.25,25,324,59.57,-25,324,71.57,90,,,
+Red25,Feed scale from side aud,5,16,88.25,0,140,57.25,25,288,57.25,-25,288,92.5,45,300,92.5,0
+Red44,Feed Scale from front cont,4,16,182.25,0,140,230.75,25,324,264.43,-25,324,252.43,-90,,,
+Red45,Feed scale from side cont,5,16,182.25,0,140,230.75,25,288,230.75,-25,288,230.18,-90,300,230.18,0
+Red54,Feed Scale from front cont,4,16,244.25,0,140,230.75,25,324,264.43,-75,324,252.43,-90,,,
+Red55,Feed scale from side cont,5,16,244.25,0,140,230.75,25,288,230.75,-75,288,230.18,-90,300,230.18,0
+Red16,Feed cross scale from side,5,16,43.75,0,140,57.25,-25,228.75,57.25,25,228.75,230.18,-25,300,230.18,0
+Red17,Feed cross switch from side,5,16,43.75,0,140,57.25,-25,228.75,57.25,25,228.75,230.18,-25,196,230.18,0
+Red56,Feed cross scale from side,5,16,244.25,0,140,230.75,25,228.75,230.75,-25,228.75,92.5,25,300,92.5,0
+Red57,Feed cross switch from side,5,16,244.25,0,140,230.75,25,228.75,230.75,-25,228.75,92.5,25,196,92.5,0
