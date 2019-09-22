@@ -1,0 +1,41 @@
+let heading = 0
+sensors.gyro4.reset()
+heading = 0
+// --------------------------------------------------------------------
+// Purpose: Zero out the values close to zero
+//
+// Notes: None.
+// --------------------------------------------------------------------
+function deadBand(heading: number) {
+        if (heading > 4) {
+            return heading;
+        }
+
+        if (heading < -4) {
+            return heading;
+        }
+        return 0;
+    }
+;
+// --------------------------------------------------------------------
+// Purpose: Loop forever
+//
+// Notes: None.
+// --------------------------------------------------------------------
+forever(function () {
+    heading = deadBand(sensors.gyro4.angle() - sensors.gyro4.drift())
+    brick.showNumber(heading, 1)
+    // Turn the robot
+    if (heading == 0) {
+        motors.largeC.run(0)
+        motors.largeD.run(0)
+    } else {
+        if (heading > 0) {
+            motors.largeC.run(15)
+            motors.largeD.run(-15)
+        } else {
+            motors.largeC.run(-15)
+            motors.largeD.run(15)
+        }
+    }
+})

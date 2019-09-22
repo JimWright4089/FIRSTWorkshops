@@ -1,0 +1,13 @@
+let newSpeed = 0
+let error = 0
+let currentSpeed = 0
+let requestedSpeed = 0
+requestedSpeed = 50
+forever(function () {
+    currentSpeed = motors.largeD.speed()
+    error = requestedSpeed - currentSpeed
+    newSpeed = requestedSpeed + error * 2
+    motors.largeD.run(newSpeed)
+    brick.showNumber(error, 1)
+    brick.showNumber(newSpeed, 2)
+})
