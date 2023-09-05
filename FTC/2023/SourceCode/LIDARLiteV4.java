@@ -8,8 +8,7 @@ import com.qualcomm.robotcore.hardware.configuration.annotations.I2cDeviceType;
 import com.qualcomm.robotcore.util.TypeConversion;
 
 @SuppressWarnings({"WeakerAccess", "unused"}) // Ignore access and unused warnings
-// Both driver classes cannot register the sensor at the same time. One driver should have the
-// sensor registered, and the other should be commented out
+
 @I2cDeviceType
 @DeviceProperties(name = "LIDARLiteV4 Sensor", description = "an LIDARLiteV4 sensor", xmlTag = "LIDARLiteV4")
 public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
@@ -17,7 +16,6 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // Registers and Config Settings
     ////////////////////////////////////////////////////////////////////////////////////////////////
-
     public enum Register
     {
       FIRST(0x00),
@@ -61,7 +59,6 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // Construction and Initialization
     ////////////////////////////////////////////////////////////////////////////////////////////////
-
     public final static I2cAddr ADDRESS_I2C_DEFAULT = I2cAddr.create7bit(0x62);
 
     public LIDARLiteV4(I2cDeviceSynch deviceClient, boolean deviceClientIsOwned)
@@ -90,7 +87,7 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
         return readDistance();
       }
 
-      return 2222;
+      return 0xffff;
     }
 
     public void takeRange()
@@ -100,11 +97,6 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
       write(Register.ACQ_COMMANDS, dataByte);
     }
 
-    /*------------------------------------------------------------------------------
-      Wait for Busy Flag
-
-      Blocking function to wait until the Lidar Lite's internal busy flag goes low
-    ------------------------------------------------------------------------------*/
     boolean waitForBusy()
     {
         byte busyFlag = 0x1;
@@ -125,11 +117,6 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
         return true;
     } 
 
-    /*------------------------------------------------------------------------------
-      Get Busy Flag
-
-      Read BUSY flag from device registers. Function will return 0x00 if not busy.
-    ------------------------------------------------------------------------------*/
     byte getBusyFlag()
     {
         byte statusByte = 0;
@@ -152,11 +139,8 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
     short readDistance()
     {
         short distance;
-
-        // Read two bytes from registers 0x10 and 0x11
         distance = readShort(Register.FULL_DELAY_LOW);
-
-        return (distance); //This is the distance in centimeters
+        return distance; //This is the distance in centimeters
     } 
 
     /*------------------------------------------------------------------------------
@@ -171,8 +155,6 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
         temp = read(Register.BOARD_TEMPERATURE);
         return temp;
     }
-
-
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // Read and Write Methods
@@ -197,6 +179,10 @@ public class LIDARLiteV4 extends I2cDeviceSynchDevice<I2cDeviceSynch>
     {
         return deviceClient.read8(reg.bVal);
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    // Sub class methods
+    ////////////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
     protected synchronized boolean doInitialize()
