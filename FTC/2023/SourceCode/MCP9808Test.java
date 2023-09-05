@@ -15,7 +15,7 @@ public class MCP9808Test extends LinearOpMode
 
     public void runOpMode() throws InterruptedException
     {
-        tempSensor = hardwareMap.get(MCP9808.class, "tempSensor");
+        tempSensor = hardwareMap.get(MCP9808.class, "temp");
 
         // Uncomment to use parameter version of driver class. This will require you to respecify
         // the sensor type from MCP9808 to MCP9808Params
