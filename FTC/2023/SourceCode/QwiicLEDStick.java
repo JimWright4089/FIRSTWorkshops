@@ -34,12 +34,12 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      * @param position which LED to change (1 - 255)
      * @param color    what color to set it to
      */
-    public void setColor(int position, int color) {
+    public void setColor(int position, int red, int green, int blue) {
         byte[] data = new byte[4];
         data[0] = (byte) position;
-        data[1] = (byte) color;
-        data[2] = (byte) color;
-        data[3] = (byte) color;
+        data[1] = (byte) red;
+        data[2] = (byte) green;
+        data[3] = (byte) blue;
         writeI2C(Commands.WRITE_SINGLE_LED_COLOR, data);
     }
 
@@ -48,11 +48,11 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      *
      * @param color what the color should be
      */
-    public void setColor(int color) {
+    public void setColor(int red, int green, int blue) {
         byte[] data = new byte[3];
-        data[0] = (byte) color;
-        data[1] = (byte) color;
-        data[2] = (byte) color;
+        data[0] = (byte) red;
+        data[1] = (byte) green;
+        data[2] = (byte) blue;
         writeI2C(Commands.WRITE_ALL_LED_COLOR, data);
     }
 
@@ -64,6 +64,7 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      * @param offset the starting value (LED only, array starts at 0)
      * @param length the length to send
      */
+  /*
     private void sendSegment(Commands cmd, int[] array, int offset, int length) {
         byte[] data = new byte[length + 2];
         data[0] = (byte) length;
@@ -74,7 +75,7 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
         }
         writeI2C(cmd, data);
     }
-
+*/
     /**
      * Change the color of an LED color segment
      *
@@ -82,6 +83,7 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      * @param offset where in the array to start
      * @param length length to send (limited to 12)
      */
+  /*
     private void setLEDColorSegment(int[] colors, int offset, int length) {
         int[] redArray = new int[length];
         int[] greenArray = new int[length];
@@ -96,12 +98,13 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
         sendSegment(Commands.WRITE_GREEN_ARRAY, greenArray, offset, length);
         sendSegment(Commands.WRITE_BLUE_ARRAY, blueArray, offset, length);
     }
-
+*/
     /**
      * Change the color of all LEDs using arrays
      *
      * @param colors array of colors to set lights to
      */
+ /*
     public void setColors(int[] colors) {
         int length = colors.length;
 
@@ -112,7 +115,7 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
         }
         setLEDColorSegment(colors, numSegments * 12, numInLastSegment);
     }
-
+*/
     /**
      * Set the brightness of an individual LED
      *
@@ -141,7 +144,7 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      * Turn all LEDS off...
      */
     public void turnAllOff() {
-        setColor(0);
+        setColor(0, 0, 0);
     }
 
     /**
@@ -149,12 +152,13 @@ public class QwiicLEDStick extends I2cDeviceSynchDevice<I2cDeviceSynchSimple> {
      *
      * @param newLength 1 to 100 (longer than 100 not supported)
      */
+/*
     public void changeLength(int newLength) {
         byte[] data = new byte[1];
         data[0] = (byte) newLength;
         writeI2C(Commands.CHANGE_LED_LENGTH, data);
     }
-
+*/
     private void writeI2C(Commands cmd, byte[] data) {
         deviceClient.write(cmd.bVal, data, I2cWaitControl.WRITTEN);
     }
